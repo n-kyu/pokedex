@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 
 import AppRouter from './routes';
-import './index.css';
 import { ResetCss } from './theme/globalStyles';
 import { dark } from './theme';
 import Header from './components/Atoms/Header';

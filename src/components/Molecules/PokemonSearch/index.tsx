@@ -26,7 +26,7 @@ const PokemonSearch = () => {
   return (
     <Atom.SearchContainer align="center" justify="flex-start" direction="row" gap="xxs">
       <Input
-        placeholder="Procurar por nome ou ID"
+        placeholder="Procurar por nome ou ID (Funcionando até o ID 905)"
         type="text"
         onChange={(event) => setSearchPokemon(event.target.value)}
       />

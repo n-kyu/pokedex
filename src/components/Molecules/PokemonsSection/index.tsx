@@ -27,7 +27,7 @@ const PokemonsSection: FC<IPokemonsSection> = ({
     disabledFetch,
     hasErrors,
     retryFetch,    
-}) => {
+  }) => {
     // recoil: states
     const [pokemonsOffset, setPokemonsOffset] = useRecoilState(atomPokemonOffset);
 
@@ -58,7 +58,7 @@ const PokemonsSection: FC<IPokemonsSection> = ({
               }
               name={pokemon.name}
             />
-            ))};
+            ))}
         </FlexBox>
          </PokedexView>
          <FlexBox

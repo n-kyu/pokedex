@@ -22,7 +22,7 @@ const PokemonCount: FC<IPokemoncount> = ({ count }) => {
       <MdCatchingPokemon size="25" />
       {count} Pokemons
     </Atom.PokemonCountContainer>
-  );
+  )
 };
 
 export default PokemonCount;
