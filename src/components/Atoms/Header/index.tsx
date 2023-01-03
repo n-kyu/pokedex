@@ -26,7 +26,12 @@ const Header = () => {
           <MdHome size="20" />
         </Atom.HeaderItem>
         <div>
-          <FlexBox align="center" justify="flex-end" direction="row" gap="xxxs">
+          <FlexBox 
+          align="center" 
+          justify="flex-end" 
+          direction="row" 
+          gap="xxxs"
+          >
             <a
               target="_blank"
               href="https://github.com/n-kyu"

@@ -21,7 +21,7 @@ export const dark = () => ({
       fairy: "#D685AD",
       eletric: "#FBD100",
     },
-    background: "#0f172a",
+    background: "#25396b",
     dark: {
       pure: "#1e293b",
       1: "#334155",
@@ -36,12 +36,12 @@ export const dark = () => ({
     },
     neutral: {
       pure: "#1e293b",
-      1: "#334155",
+      1: "#2a75bb",
       2: "#475569",
       3: "#64748b",
     },
     primary: "#EA047E",
-    secondary: "#FEC260",
+    secondary: "#ffa500",
     feedback: {
       error: "#cc0000",
       warning: "#ff8800",

@@ -28,10 +28,6 @@ const InitialPokemons = () => {
         alt="Pokemon squirtle gif"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif"
       />
-      <Atom.PokemonGif
-        alt="Pokemon pikachu gif"
-        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif"
-      />
     </FlexBox>
   );
 };

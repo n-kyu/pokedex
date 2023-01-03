@@ -27,13 +27,13 @@ export const ResetCss = createGlobalStyle`
   }
 
   ::-webkit-scrollbar {
-    width: 2px;
+    width: 10px;
     background-color: rgba(0, 0, 0, 0.1);
   }
 
   ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: ${(props) => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.secondary};
   }
 
   @keyframes fadeIn {
