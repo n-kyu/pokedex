@@ -19,19 +19,23 @@ export const ResetCss = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
   }
+
   ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
     background-color: transparent;
     border-radius: 10px;
   }
+
   ::-webkit-scrollbar {
     width: 2px;
     background-color: rgba(0, 0, 0, 0.1);
   }
+
   ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: ${(props) => props.theme.colors.primary};
   }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -42,4 +46,5 @@ export const ResetCss = createGlobalStyle`
       transform: translateY(0px);
     }
   }
+
 `;
