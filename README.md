@@ -1,1 +1,1 @@
-## Projeto academico sobre API utilizando a PokéAPI
+## Projeto utilizando a PokéAPI
