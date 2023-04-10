@@ -45,7 +45,6 @@ To use the Pokédex, follow these steps:
 
 1. Visit the homepage to view a list of Pokémon
 2. Use the search bar to search for a specific Pokémon
-3. Use the filter dropdown to filter Pokémon by type
 4. Click on a Pokémon to view their basic information
 
 ## Future Improvements
@@ -54,6 +53,6 @@ In the future, the Pokédex could be expanded to include additional features, su
 - Ability to view the stats of each Pokémon
 - Ability to add and remove Pokémon from a personal collection
 - Improved search and filtering options for the Pokémon list
-- 
+
 ## Contributing
 If you would like to contribute to the Pokédex, please open an issue or pull request on the GitHub repository.
